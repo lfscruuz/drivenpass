@@ -3,6 +3,9 @@
         "target": "es2020",
         "module": "commonJS",
         "outDir": "dist",
+        "noImplicitAny": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
         "esModuleInterop": true,
         "rootDirs": [
             "src",
